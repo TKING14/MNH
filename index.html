@@ -1,0 +1,81 @@
+<DOCTYPE HTML>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MOBILE NEWS HUB</title>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="local_index.css">
+	</head>
+	<body class="flex col" >
+		<nav class="flex row verx vh01 bc1" >
+			<a class="flex verx vw08 hi padding c02" href="#">MNH</a>
+			<a class="flex verx hor1 vw02 hi padding c02" href="#">MENU</a>
+		</nav>
+
+		<section class="flex horx verx bc1 vh08">
+			<img class="c02" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/2048px-Google_Translate_logo.svg.png" alt="MOBILE NEWS HUB LOGO">
+		</section>
+		
+		
+		<section class="">
+			<!--	Server Error-->
+			<h5 id="ErrorMessage00" class="ErrorMessage flex verx vh01">server not responding...</h5> <!--	error ( javascript, server response )	-->
+
+			<!--	Default Article Layout-->
+			<button class="hidden article_button flex col verx vw10 vh01" onclick="toggle_content(buttonID)">
+				<div class="article_header">
+					<h3 class="article_title">Lorem ipsum</h3>
+					<div class="article_feedbackr">
+						<div class="article_feedbackr_up"></div>
+						<div class="article_feedbackr_down"></div>
+					</div>
+					<h5 class="article_timestamp flex hor0">2022/12/12 00:00</h5>
+				</div>
+			</button>
+			<div class="article_content"></div>
+		</section>
+
+
+	</body>
+	</html>
+</DOCTYPE>
+
+<!--
+	DOCUMENTATION
+		
+	STRUCTURE
+		#Flexbox
+		.flex = display ( flex )
+		.row = flex-direction ( row )
+		.col = flex-direction ( column )
+		
+			.verx = justify-content ( center )
+			.ver0 = justify-content ( flex-start )
+			.ver1 = justify-content ( flex-end )
+		
+			.horx = align-items ( center )
+			.hor0 = align-items ( flex-start )
+			.hor1 = align-items ( flex-end )
+
+		.hi - .vh10 - .vh08 - .vh06 - .vh04 - .vh02 - .vh01 = height (inherit, 100vh, 80vh, 60vh, 40vh, 20vh, 10vh)
+		.wi - .vw10 - .vw08 - .wh06 - .vw04 - .vw02 - .vw01 = width (inherit, 100vw, 80vw, 60vw, 40vw, 20vw, 10vw)
+
+		.pabs = position ( absolute )
+		.padding = padding ( 0 5vw )
+
+	FORMAT
+		#Color
+		.c01 - c02 - c03 = background-color ( accent, white, black )
+		.bc1 - bc2 - bc3 = background-color ( accent, white, black )
+
+
+	UTILITY
+		COPY PASTE TEMPLATES
+		 class="" 
+		 dolor sit amet consectetur adipisicing elit. Cum, culpa? Sed a debitis velit rem suscipit praesentium nisi vel id omnis, reiciendis laboriosam asperiores quo in adipisci magnam quod repudiandae!
+		 
+		 .show			background-color ( red )
+		 .hidden		display ( none )
+-->
