@@ -1,0 +1,53 @@
+<DOCTYPE HTML>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MOBILE NEWS HUB | ARTICLE</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body class="" >
+		<nav class="flex row verx vh01 bc1" >
+			<a class="flex horx vw08 hi padding c02" href="./index.html">MNH</a>
+			<a class="flex horx ver1 vw02 hi padding c02" href="./article.html">MENU</a>
+		</nav>	
+
+		<section class="flex col verx padb">
+			<!--	Server Error-->
+			<h5 id="ErrorMessage00" class="hidden ErrorMessage flex horx vh01">server not responding...</h5> <!--	error ( javascript, server response )	-->
+
+			<!--	Default Article Layout-->
+			<button class="hidden article_button flex col verx vh02" onclick="toggle_content(buttonID)">
+				<div class="article_header">
+					<h3 class="article_title">Lorem ipsum</h3>
+					<div class="article_feedbackr">
+						<div class="article_feedbackr_up"></div>
+						<div class="article_feedbackr_down"></div>
+					</div>
+					<h5 class="article_timestamp flex hor0">2022/12/12 00:00</h5>
+				</div>
+			</button>
+			<div class="article_opened_topbar flex row verx vh01 bc2" >
+				<div class="article_opened_topbar_left flex horx vw08 hi padding c03"></div>
+				<a class="article_opened_topbar_right flex horx ver1 vw02 hi padding c03" href="./index.html">X</a>
+			</div>
+			<div class="artcile_opened flex col horx">
+				<div class="article_opened_banner vw06 vh03 overflowh">
+					<img class="banner" src="https://cdn.discordapp.com/attachments/907197285610455091/1030605653644951563/IMG_0010.png" alt="">
+				</div>
+				<div class="article_opened_content flex vw06 col">
+					<h3 class="mar padt">iPADOS 16 RELEASED!</h3>
+					<h5 class="mar c01">#tag #tag #tag #tag</h5>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sunt maiores quibusdam enim, explicabo reprehenderit rem deleniti quo, illum quod accusantium ullam officia iure? Aliquam culpa dicta mollitia amet. Et!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque libero voluptates sint eaque, nulla suscipit provident facilis aliquam possimus architecto maxime repudiandae, ipsam qui incidunt recusandae consequuntur! Minus, nam odit.
+					</p>
+					<img class="banner" src="https://cdn.discordapp.com/attachments/907197285610455091/1030605653644951563/IMG_0010.png" alt="">
+				</div>
+			</div>
+		</section>
+		<button class="hidden pabs flex verx horx vw01 vh01 bc1"></button>
+
+	</body>
+	</html>
+</DOCTYPE>
